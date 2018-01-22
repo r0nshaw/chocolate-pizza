@@ -2,17 +2,18 @@ html, body {
 	width: 100%;
 	height: 100%;
 	margin: 0;
+	background-color: white;
 }
 .nav {
 	width: 100%;
 	height: 45px;
-	background: red;
+	/* background: red; */
 }
 
 .left-in-nav {
 	width: 70%;
 	height: 100%;
-	background: green;
+/* 	background: green; */
 	display: inline-block;
 	vertical-align: top;
 }
@@ -20,7 +21,7 @@ html, body {
 .right-in-nav {
 	width: calc(30% - 5px);
 	height: 100%;
-	background: purple;
+	/* background: purple;  */
 	display: inline-block;
 }
 .left-in-nav img {
@@ -30,7 +31,7 @@ html, body {
 .left-in-nav div {
 	width: 40%;
 	height: 100%;
-	background: blue;
+/* 	background: blue; */
 	display: inline-block;
 	position: relative;
 	top: -4px;
@@ -53,16 +54,77 @@ html, body {
 .header {
 	width: 100%;
 	height: 45px;
-	background: red;
+	/* background: red; */
 }
 .left-in-header {
 	width: 70%;
 	height: 45px;
-	background: green;
-
+	/* background: green; */
 }
+.left-in-header {
+	width: 40%;
+	height: 100%;
+/* 	background: blue; */
+	display: inline-block;
+	position: relative;
+	top: -4px;
+}
+.postedOn {
+	margin: -21px;
+}
+.chocolatePizza {
+	width: 100%;
+	padding: 28px;
+  margin-left: -28px;
+}
+
+.right-in-header img{
+float: right;
+vertical-align: top;
+}
+
 .header div p {
 	margin-top: -21px;
+}
+.recipe {
+	text-indent: 25px;
+}
+.allIngredients {
+	background-image: url("img/list-bg.png");
+	overflow: auto;
+	width: 100%;
+}
+
+.ingredients1 {
+	float: left;
+	padding-left: 287px;
+	padding-right: 200px;
+}
+
+.ingredients2 {
+	float: left;
+}
+
+.footerAuthor {
+	width: 87%;
+	float: left;
+}
+
+.vanessaPhoto {
+	float: left;
+}
+
+.author {
+	float: left;
+	margin: -4px;
+}
+
+.button {
+	width: 140px;
+	height: 40px;
+	background-color: black;
+	color: white;
+	float: right;
 }
 /* body {
 	font-family: Times, Helvetica, sans-serif;
